@@ -1,0 +1,22 @@
+.event-form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .field-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+  }
+  .date-time {
+    display: flex;
+  }
+
+  .button-div {
+    text-align: end;
+  }
+}
+
+button {
+  margin-left: 10px;
+}
